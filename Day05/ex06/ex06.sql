@@ -1,1 +1,5 @@
-SELECT title, summary from film where LOWER(summary) LIKE LOWER("%Vincent%") ORDER BY id_film ASC;
+SELECT title, summary 
+FROM film 
+WHERE LOWER(summary) 
+LIKE LOWER("%Vincent%") 
+ORDER BY id_film ASC;

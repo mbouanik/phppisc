@@ -1,1 +1,5 @@
-SELECT title, summary from film where title LIKE "%42%" ORDER BY id_film ASC
+SELECT title, summary 
+FROM film 
+WHERE title 
+LIKE "%42%" 
+ORDER BY id_film ASC
