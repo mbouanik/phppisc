@@ -1,1 +1,0 @@
-SELECT title, summary from film where title LIKE "%42%" ORDER BY id_film ASC

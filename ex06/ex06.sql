@@ -1,1 +1,0 @@
-SELECT title, summary from film where LOWER(summary) LIKE LOWER("%Vincent%") ORDER BY id_film ASC;
